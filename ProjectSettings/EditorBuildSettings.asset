@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/SplashScreen.unity
+    guid: ebae0e1f547b544089a631420c8a2b6c
+  - enabled: 1
+    path: Assets/Scenes/StartScreen.unity
+    guid: e7eea694cef0543489d93d8606a27dbb
+  - enabled: 1
+    path: Assets/Scenes/UserID_Token.unity
+    guid: e579c7160a36c47faad31f8fa780c04f
+  - enabled: 1
+    path: Assets/Scenes/EasyAR.unity
+    guid: 8c2a97cda0a6b4351ba320e82d208941
+  - enabled: 1
+    path: Assets/Scenes/PhotoFrame.unity
+    guid: 7dafa92b50b6d450c9b1fc2cf1a96d5a
+  - enabled: 1
+    path: Assets/Scenes/PreviewScreen.unity
+    guid: 086ae63f22cc949e2a4adbcc1efa070e
+  - enabled: 1
+    path: Assets/Scenes/ShareScreen.unity
+    guid: 17b00a713aaa34eba9e973aea0fcd04b
+  - enabled: 1
+    path: Assets/Scenes/ThankYouSplash.unity
+    guid: 95070adf8075d482b9142d8b93d25c74
+  - enabled: 1
+    path: Assets/Scenes/Device_ID.unity
+    guid: e520db5f2fa634d6a92602f6570b5427
+  - enabled: 0
+    path: Assets/Scenes/LoginForm.unity
+    guid: bbb8278da5fce4b28b7b800d85d54657
+  m_configObjects: {}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Temp/gradleOut/libs/unity-classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="90966f91c8a51faa1883ef3be9857c9c97b7fa35">
+        <dex dex="/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Temp/gradleOut/build/intermediates/pre-dexed/debug/unity-classes_4e3942e217c16e5ad6ec2ccbe8d96608db9bfd8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Temp/gradleOut/libs/EasyAR.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="a927dd0d114d0323e6cdabaa7bb91be57c83ba9e">
+        <dex dex="/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Temp/gradleOut/build/intermediates/pre-dexed/debug/EasyAR_ec264c6ec521e4bf04799a89e9203979cebb81dd.jar" />
+    </item>
+
+</items>
