@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Temp/gradleOut/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Temp/gradleOut/src/debug/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Temp/gradleOut/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Temp/gradleOut/src/debug/shaders"/></dataSet></merger>

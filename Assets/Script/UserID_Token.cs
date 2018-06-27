@@ -30,7 +30,7 @@ public class UserID_Token : MonoBehaviour
         SubmitBtn = submit.GetComponent<Button>();
         if (UserID != "")
         {
-            //SubmitBtn.onClick.AddListener(userValidation);
+          
         }
     }
 

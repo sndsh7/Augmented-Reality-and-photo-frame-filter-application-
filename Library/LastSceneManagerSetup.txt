@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/ShareScreen.unity
+- path: Assets/Scenes/PreviewScreen.unity
   isLoaded: 1
   isActive: 1

@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/EasyAR.apk
+/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/EasyAR.apk
 SceneListBegin?
 Assets/Scenes/SplashScreen.unity
 Assets/Scenes/StartScreen.unity
@@ -10,7 +10,6 @@ Assets/Scenes/PhotoFrame.unity
 Assets/Scenes/PreviewScreen.unity
 Assets/Scenes/ShareScreen.unity
 Assets/Scenes/ThankYouSplash.unity
-Assets/Scenes/Device_ID.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 cf455f7a806648c6ed4c7d3e3f8a0e03 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -125,7 +124,6 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
-01925f191493bbdc89ef1ba70014b45f Assembly-CSharp.dll:.ScreenRecorder
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
@@ -160,6 +158,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 8e004058d1806288e68d5738c5a3418e Assembly-CSharp.dll:.PreviewScript
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.emailToggle
 9f5fcfd05951ea52558ee6ab33722f09 Assembly-CSharp.dll:EasyAR.ARCameraBehaviour
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 f02726adeff0a3ec5905565234b372da UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
@@ -172,6 +171,7 @@ e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.devicePanel
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
@@ -181,12 +181,12 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 12ccef6dfb94973d28f615b2fc30af05 Assembly-CSharp.dll:EasyAR.ObjectTargetBehaviour
 783a636b110c0b78a45cc02816ef9013 Assembly-CSharp.dll:EasyAR.ImageTargetBehaviour
 261a0750e46832d9d2d035dcf9ab8b93 Assembly-CSharp.dll:.PhoneCamera
-d721cfb89f4f7a67add4ba1964c78061 Assembly-CSharp.dll:.DropDownMenu
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DropDownMenu
 5c40b43836450d8cc4b6dbdc1f9847c9 Assembly-CSharp.dll:EasyAR.ImageTrackerBehaviour
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.imageTransformRect
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ImageMove
 b8ce989480095e58023140453c7b0b16 Assembly-CSharp.dll:EasyAR.VideoPlayerBehaviour
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:EasyAR.QRCodeScannerBehaviour
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SceneLevel
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ToggleListner
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.emailToggle
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.imageTransformRect
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SceneLevel
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.hideme

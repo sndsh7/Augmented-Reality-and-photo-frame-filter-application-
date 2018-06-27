@@ -43,7 +43,7 @@ android {
 	}
 
 	aaptOptions {
-		noCompress '.unity3d', '.ress', '.resource', '.obb','capturebtn.png','red_transparent_png_frame_with_gold_flowers.png','close.png','logo.png','menu.png','photo-frame-png-14.png','qrcode.jpeg'
+		noCompress '.unity3d', '.ress', '.resource', '.obb','capturebtn.png','red_transparent_png_frame_with_gold_flowers.png','close.png','logo.png','menu.png','photo-frame-png-14.png','qrcode.jpeg','retake.png'
 	}
 
 

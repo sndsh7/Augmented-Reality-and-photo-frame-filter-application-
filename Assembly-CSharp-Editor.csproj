@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{A9269CE2-36AC-7B6B-232C-1386287A412E}</ProjectGuid>
+    <ProjectGuid>{0945A558-0D1E-56A8-32D9-17A31292A6E5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -63,10 +63,10 @@
   <ItemGroup>
     <Compile Include="Assets\EasyAR\Scripts\Editor\PostBuild.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -303,10 +303,10 @@
       <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="EasyAR.Unity">
-      <HintPath>/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Assets/EasyAR/Scripts/EasyAR.Unity.dll</HintPath>
+      <HintPath>/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Assets/EasyAR/Scripts/EasyAR.Unity.dll</HintPath>
     </Reference>
     <Reference Include="EasyAR.Unity.Editor">
-      <HintPath>/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Assets/EasyAR/Scripts/Editor/EasyAR.Unity.Editor.dll</HintPath>
+      <HintPath>/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Assets/EasyAR/Scripts/Editor/EasyAR.Unity.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>/Users/sandeshagawane/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -359,7 +359,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{3A99D1E9-16E0-9D52-7335-67839D4EBEE1}</Project>
+      <Project>{A382B220-B501-DB97-C3ED-474622DFCF56}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>

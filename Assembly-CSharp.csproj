@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{3A99D1E9-16E0-9D52-7335-67839D4EBEE1}</ProjectGuid>
+    <ProjectGuid>{A382B220-B501-DB97-C3ED-474622DFCF56}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,7 +61,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\DropDownMenu.cs" />
     <Compile Include="Assets\EasyAR\Scripts\ARBuilder.cs" />
     <Compile Include="Assets\EasyAR\Scripts\ARCameraBehaviour.cs" />
     <Compile Include="Assets\EasyAR\Scripts\ARSceneBehaviour.cs" />
@@ -78,10 +77,12 @@
     <Compile Include="Assets\EasyAR\Scripts\RecorderBehaviour.cs" />
     <Compile Include="Assets\EasyAR\Scripts\RenderCameraBehaviour.cs" />
     <Compile Include="Assets\EasyAR\Scripts\VideoPlayerBehaviour.cs" />
-    <Compile Include="Assets\hidePopup.cs" />
     <Compile Include="Assets\Script\CaptureScreenshot.cs" />
+    <Compile Include="Assets\Script\devicePanel.cs" />
+    <Compile Include="Assets\Script\DropDownMenu.cs" />
     <Compile Include="Assets\Script\emailToggle.cs" />
     <Compile Include="Assets\Script\ExtendedTracker.cs" />
+    <Compile Include="Assets\Script\hideme.cs" />
     <Compile Include="Assets\Script\ImageMove.cs" />
     <Compile Include="Assets\Script\imageTransformRect.cs" />
     <Compile Include="Assets\Script\LoginScript.cs" />
@@ -89,7 +90,6 @@
     <Compile Include="Assets\Script\PreviewScript.cs" />
     <Compile Include="Assets\Script\RetakeBtn.cs" />
     <Compile Include="Assets\Script\SceneLevel.cs" />
-    <Compile Include="Assets\Script\ScreenRecorder.cs" />
     <Compile Include="Assets\Script\ScrollSnapRect.cs" />
     <Compile Include="Assets\Script\SharingPreview.cs" />
     <Compile Include="Assets\Script\ToggleListner.cs" />
@@ -103,10 +103,10 @@
     <None Include="Assets\EasyAR\Resources\Shaders\TransparentVideo.shader" />
     <None Include="Assets\EasyAR\Resources\Shaders\RealityPlane.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -298,7 +298,7 @@
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="EasyAR.Unity">
-      <HintPath>/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Assets/EasyAR/Scripts/EasyAR.Unity.dll</HintPath>
+      <HintPath>/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Assets/EasyAR/Scripts/EasyAR.Unity.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Users/sandeshagawane/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
