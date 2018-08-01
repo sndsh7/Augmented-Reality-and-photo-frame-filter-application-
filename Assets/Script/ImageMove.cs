@@ -1,8 +1,10 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using PrintUtil;
 using UnityEditor;
-
+using LCPrinter;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -10,8 +12,12 @@ using UnityEngine.UI;
 public class ImageMove : MonoBehaviour {
 
     private static bool Succeed = false;
-    private static bool FB;
-    private static bool EM;
+    private static bool FB = false;
+    private static bool EM = false;
+    private static bool PR = false;
+
+    public string printerName = "";
+    public int copies = 1;
 
     public void SetFacebook(bool fb)
     {
@@ -20,6 +26,9 @@ public class ImageMove : MonoBehaviour {
     public void SetEmail(bool em)
     {
         EM = em;
+    }
+    public void SetPrint(bool pr){
+        PR = pr;
     }
 
     public void Move()
@@ -30,8 +39,9 @@ public class ImageMove : MonoBehaviour {
         string uid = username.GetuserName();
 
         //Toggle value listner
-        Debug.Log(EM);
-        Debug.Log(FB);
+        Debug.Log("Email"+EM);
+        Debug.Log("Fb"+FB);
+        Debug.Log("PR"+PR);
 
         DirectoryInfo sourceInfo = new DirectoryInfo(Application.persistentDataPath+"/Initial");
         DirectoryInfo destInfo = new DirectoryInfo(Application.persistentDataPath + "/Success");
@@ -40,35 +50,56 @@ public class ImageMove : MonoBehaviour {
         }
         foreach(FileInfo fi in sourceInfo.GetFiles())
         {
-            if (fi.Length != 0 && FB == true && EM == true )
+            if 
+                (fi.Length != 0 && FB == true && EM == true && PR == false){
                 fi.CopyTo(Path.Combine(destInfo.ToString(), uid + "___1___1___" + timeStamp + ".png"), true);
                 Succeed = true;
+            }
         
-            if (fi.Length != 0 && FB == true && EM == false)
+            else if (fi.Length != 0 && FB == true && EM == false && PR == false)
             {
    
                 fi.CopyTo(Path.Combine(destInfo.ToString(), uid + "___1___0___" + timeStamp + ".png"), true);
                 Succeed = true;
 
             }
-            if (fi.Length != 0 && FB == false && EM == true)
+            else if (fi.Length != 0 && FB == false && EM == true && PR == false)
             {
 
                 fi.CopyTo(Path.Combine(destInfo.ToString(), uid + "___0___1___" + timeStamp + ".png"), true);
                 Succeed = true;
 
             }
-            if (fi.Length != 0 && FB == false && EM == false)
+            else if (fi.Length != 0 && FB == false && EM == false && PR == false)
             {
                 fi.CopyTo(Path.Combine(destInfo.ToString(), uid + "___0___0___" + timeStamp + ".png"), true);
                 Succeed = true;
             }
+            else if(fi.Length != 0 && PR == true){
+                
+                {
+                    
+                    fi.CopyTo(Path.Combine(destInfo.ToString(), uid + "PrintOut" + timeStamp + ".png"), true);
+                    Succeed = true;
+
+                    Print.PrintTextureByPath(sourceInfo, copies, printerName);
+                }
+
+
+            }
            
            
         }
+
         if(Succeed == true){
             FB = false;
             EM = false;
+            PR = false;
+
+            Debug.Log("Email" + EM);
+            Debug.Log("Fb" + FB);
+            Debug.Log("PR" + PR);
+
             
             DirectoryInfo directoryInfo = new DirectoryInfo(Application.persistentDataPath + "/Initial");
             foreach (FileInfo file in directoryInfo.GetFiles())
@@ -83,4 +114,5 @@ public class ImageMove : MonoBehaviour {
             ScNo.SetSceneIndex(7);
         }
      }
- }
+
+}

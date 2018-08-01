@@ -33,6 +33,9 @@ EditorBuildSettings:
     path: Assets/Scenes/ThankYouSplash.unity
     guid: 95070adf8075d482b9142d8b93d25c74
   - enabled: 0
+    path: Assets/Scenes/printToRenderTex.unity
+    guid: 7b7369b399a114922bbca40448a7a614
+  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 0

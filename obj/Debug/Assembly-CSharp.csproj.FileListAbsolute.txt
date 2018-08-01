@@ -486,3 +486,4 @@
 /Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
 /Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/obj/Debug/Assembly-CSharp.dll
 /Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/obj/Debug/Assembly-CSharp.pdb
+/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Temp/bin/Debug/System.Drawing.dll

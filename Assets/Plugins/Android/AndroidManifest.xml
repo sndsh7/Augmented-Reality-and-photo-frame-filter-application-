@@ -12,4 +12,10 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
+   <service android:name=".MyPrintService"
+         android:permission="android.permission.BIND_PRINT_SERVICE">
+     <intent-filter>
+         <action android:name="android.printservice.PrintService" />
+     </intent-filter>
+ </service>
 </manifest>
