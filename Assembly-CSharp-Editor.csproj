@@ -65,8 +65,14 @@
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -311,8 +317,11 @@
     <Reference Include="System.Drawing">
       <HintPath>/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Assets/Plugins/System.Drawing.dll</HintPath>
     </Reference>
+    <Reference Include="LCPrinter">
+      <HintPath>/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Assets/LCPrinter/Plugins/LCPrinter.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>/Users/sandeshagawane/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>/Users/sandeshagawane/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Users/sandeshagawane/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
@@ -320,20 +329,14 @@
     <Reference Include="UnityEditor.Analytics">
       <HintPath>/Users/sandeshagawane/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/Editor/UnityEditor.Analytics.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>/Users/sandeshagawane/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>/Users/sandeshagawane/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>/Users/sandeshagawane/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>/Users/sandeshagawane/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
-    </Reference>
-    <Reference Include="LCPrinter">
-      <HintPath>/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Assets/LCPrinter/Plugins/LCPrinter.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>

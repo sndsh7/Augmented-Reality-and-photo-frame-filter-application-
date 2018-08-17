@@ -40,6 +40,7 @@ public class PhoneCamera : MonoBehaviour {
 
 	private void Update()
 	{
+        Screen.orientation = ScreenOrientation.Portrait;
         if(!CamAvailable)
             return;
 

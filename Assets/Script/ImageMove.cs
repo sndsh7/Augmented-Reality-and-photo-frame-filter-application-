@@ -8,6 +8,7 @@ using LCPrinter;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.Networking;
 
 public class ImageMove : MonoBehaviour {
 
@@ -50,42 +51,37 @@ public class ImageMove : MonoBehaviour {
         }
         foreach(FileInfo fi in sourceInfo.GetFiles())
         {
-            if 
-                (fi.Length != 0 && FB == true && EM == true && PR == false){
+            if (fi.Length != 0 && FB == true && EM == true)
+            {
                 fi.CopyTo(Path.Combine(destInfo.ToString(), uid + "___1___1___" + timeStamp + ".png"), true);
                 Succeed = true;
             }
         
-            else if (fi.Length != 0 && FB == true && EM == false && PR == false)
+            else if (fi.Length != 0 && FB == true && EM == false)
             {
    
                 fi.CopyTo(Path.Combine(destInfo.ToString(), uid + "___1___0___" + timeStamp + ".png"), true);
                 Succeed = true;
 
             }
-            else if (fi.Length != 0 && FB == false && EM == true && PR == false)
+            else if (fi.Length != 0 && FB == false && EM == true)
             {
 
                 fi.CopyTo(Path.Combine(destInfo.ToString(), uid + "___0___1___" + timeStamp + ".png"), true);
                 Succeed = true;
 
             }
-            else if (fi.Length != 0 && FB == false && EM == false && PR == false)
+            else if (fi.Length != 0 && FB == false && EM == false)
             {
                 fi.CopyTo(Path.Combine(destInfo.ToString(), uid + "___0___0___" + timeStamp + ".png"), true);
                 Succeed = true;
             }
-            else if(fi.Length != 0 && PR == true){
-                
-                {
-                    
-                    fi.CopyTo(Path.Combine(destInfo.ToString(), uid + "PrintOut" + timeStamp + ".png"), true);
-                    Succeed = true;
-
-                    Print.PrintTextureByPath(sourceInfo, copies, printerName);
-                }
-
-
+            else if(fi.Length != 0 && PR == true && FB == false && EM == false)
+            {
+                fi.CopyTo(Path.Combine(destInfo.ToString(), uid + "PrintOut" + timeStamp + ".png"), true);
+                Succeed = true;
+                Print.PrintTextureByPath(Application.persistentDataPath + "/Initial/*.png", copies, printerName);
+                Debug.Log("Printing :" + Application.persistentDataPath + "/Initial/*.png");
             }
            
            
@@ -95,6 +91,7 @@ public class ImageMove : MonoBehaviour {
             FB = false;
             EM = false;
             PR = false;
+            Succeed = false;
 
             Debug.Log("Email" + EM);
             Debug.Log("Fb" + FB);
@@ -106,6 +103,7 @@ public class ImageMove : MonoBehaviour {
             {
                 file.Delete();
                 Debug.Log("Files deleted");
+                StartCoroutine(Upload());
 
             }
             SceneLevel ScNo = new SceneLevel();
@@ -115,4 +113,23 @@ public class ImageMove : MonoBehaviour {
         }
      }
 
+    IEnumerator Upload()
+    {
+        string imgPath = Application.persistentDataPath + "/Success/*.png";
+        List<IMultipartFormSection> formData = new List<IMultipartFormSection>();
+        formData.Add(new MultipartFormDataSection("MyImage", imgPath));
+        Debug.Log(imgPath);
+
+        UnityWebRequest www = UnityWebRequest.Post("http://www.", formData);
+        yield return www.Send();
+
+        if(www.isNetworkError)
+        {
+            Debug.Log(www.error);
+        }
+        else
+        {
+            Debug.Log("Form upload completed");
+        }
+    }
 }

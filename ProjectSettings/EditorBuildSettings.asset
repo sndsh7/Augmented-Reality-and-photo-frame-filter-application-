@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/LoginForm.unity
     guid: bbb8278da5fce4b28b7b800d85d54657
+  - enabled: 0
+    path: Assets/LCPrinter/LCExampleScene.unity
+    guid: b8e084095b5fec149b6245b75762b3bf
   m_configObjects: {}
