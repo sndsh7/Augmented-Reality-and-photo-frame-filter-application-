@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/printTest.apk
+/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/AR_SRK.apk
 SceneListBegin?
 Assets/Scenes/SplashScreen.unity
 Assets/Scenes/StartScreen.unity
@@ -143,7 +143,6 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PostAPI
 36d02774f21cd7ca153f86603aefd09f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 080920d5a136053643387e40b3ec2a08 Assembly-CSharp.dll:EasyAR.CloudRecognizerBehaviour
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CaptureScreenshot

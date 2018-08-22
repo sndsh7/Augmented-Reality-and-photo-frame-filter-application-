@@ -89,7 +89,6 @@
     <Compile Include="Assets\Script\LoginScript.cs" />
     <Compile Include="Assets\Script\ManagerScript.cs" />
     <Compile Include="Assets\Script\PhoneCamera.cs" />
-    <Compile Include="Assets\Script\PostAPI.cs" />
     <Compile Include="Assets\Script\PreviewScript.cs" />
     <Compile Include="Assets\Script\PrintToggle.cs" />
     <Compile Include="Assets\Script\RetakeBtn.cs" />

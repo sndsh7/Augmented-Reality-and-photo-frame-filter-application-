@@ -748,7 +748,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 566403703}
-        m_MethodName: Move
+        m_MethodName: PostTOserver
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -804,6 +804,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55cd58ee887924c7184acbede4c5964f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  printerName: 
+  copies: 1
 --- !u!1 &569109929
 GameObject:
   m_ObjectHideFlags: 0
@@ -1233,6 +1235,7 @@ GameObject:
   - component: {fileID: 1376194480}
   - component: {fileID: 1376194479}
   - component: {fileID: 1376194478}
+  - component: {fileID: 1376194482}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1303,6 +1306,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1376194482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1376194477}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 197a63258b04d4440a54bade867efc58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FtpHost: ftp://192.168.0.101/
+  filepath: /Users/sandeshagawane/aet_logo.png
+  m_FtpUsername: sling
+  m_FtpPassword: socialiot1212
 --- !u!1 &1502398922
 GameObject:
   m_ObjectHideFlags: 0

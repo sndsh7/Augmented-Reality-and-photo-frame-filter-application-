@@ -358,7 +358,6 @@
 /Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Temp/bin/Debug/UnityEngine.PerformanceReportingModule.dll
 /Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Temp/bin/Debug/UnityEngine.Physics2DModule.dll
 /Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Temp/bin/Debug/UnityEngine.PhysicsModule.dll
-/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Temp/bin/Debug/UnityEngine.Purchasing.dll
 /Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Temp/bin/Debug/UnityEngine.ScreenCaptureModule.dll
 /Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Temp/bin/Debug/UnityEngine.SharedInternalsModule.dll
 /Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Temp/bin/Debug/UnityEngine.SpatialTracking.dll
@@ -577,7 +576,6 @@
 /Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Temp/bin/Debug/UnityEditor.Advertisements.dll.mdb
 /Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Temp/bin/Debug/UnityEngine.Analytics.dll.mdb
 /Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Temp/bin/Debug/UnityEditor.Analytics.dll.mdb
-/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Temp/bin/Debug/UnityEngine.Purchasing.dll.mdb
 /Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Temp/bin/Debug/UnityEditor.Purchasing.dll.mdb
 /Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Temp/bin/Debug/UnityEngine.StandardEvents.dll.mdb
 /Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Temp/bin/Debug/UnityEngine.ClusterInputModule.dll.mdb
@@ -591,3 +589,8 @@
 /Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/obj/Debug/Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
 /Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/obj/Debug/Assembly-CSharp-Editor.dll
 /Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/obj/Debug/Assembly-CSharp-Editor.pdb
+/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Temp/bin/Debug/LCPrinter.dll
+/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Temp/bin/Debug/Unity.TextMeshPro.dll
+/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Temp/bin/Debug/Unity.TextMeshPro.Editor.dll
+/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Temp/bin/Debug/Unity.TextMeshPro.Editor.dll.mdb
+/Users/sandeshagawane/github/EASYAR1/EasyAR_TEST/Augmented-Reality-and-photo-frame-filter-application-/Temp/bin/Debug/Unity.TextMeshPro.dll.mdb

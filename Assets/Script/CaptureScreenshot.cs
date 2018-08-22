@@ -46,7 +46,8 @@ public class CaptureScreenshot : MonoBehaviour
         string uid = username.GetuserName();
 
         string timeStamp = System.DateTime.Now.ToString("dd-MM-yyyy-HH-mm-ss");
-        string fileName = uid + timeStamp + ".png";
+        //string fileName = uid + timeStamp + ".png";
+        string fileName = "Default.png";
         string Name = fileName;
         yield return new WaitForEndOfFrame();
         ScreenCapture.CaptureScreenshot("Initial/" + Name);
